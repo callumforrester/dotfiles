@@ -9,4 +9,4 @@ PS1='[\u@\h \W]\$ '
 complete -cf sudo
 
 # local version of bashrc
-source .bashrc_local
+source $HOME/.bashrc_local
