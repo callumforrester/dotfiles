@@ -1,0 +1,13 @@
+#
+# ~/.bashrc_local
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# Env varialbes
+export TERMINAL="xfce4-terminal"
+
+# Aliases
+alias ls="ls --color=auto"
+alias intellij="idea"
