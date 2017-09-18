@@ -59,7 +59,6 @@ modules-left = volume
 modules-center = i3
 modules-right = wireless-network battery date
 
-
 [module/volume]
 type = internal/volume
 
