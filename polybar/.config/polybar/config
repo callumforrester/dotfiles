@@ -62,6 +62,8 @@ modules-right = wireless-network battery date
 [module/volume]
 type = internal/volume
 
+master-soundcard = hw:1
+
 format-volume = <ramp-volume> <label-volume>
 format-muted = <ramp-volume> <label-muted>
 
