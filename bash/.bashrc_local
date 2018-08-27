@@ -11,6 +11,7 @@ export TERMINAL="xfce4-terminal"
 # Aliases
 alias ls="ls --color=auto"
 alias ll="ls -l"
+alias lla="ll -a"
 alias intellij="idea"
 alias cclip="xclip -selection clipboard"
 
