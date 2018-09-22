@@ -115,8 +115,8 @@ bindsym XF86MonBrightnessUp exec light -A 1
 bindsym XF86MonBrightnessDown exec light -U 1
 
 # start redshift
-exec killall -q redshift
-#exec_always --no-startup-id "redshift -r -l 50:0 -t 6500:3400 & disown"
+exec killall -q redshift && sleep 1
+exec_always --no-startup-id "redshift -r -l 50:0 -t 6500:3400 & disown"
 
 # manage power shortcuts
 set $Locker $HOME/.bin/scripts/lock.sh && sleep 1
