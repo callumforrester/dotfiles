@@ -55,7 +55,7 @@ foreground = ${colors.foreground}
 font-0 = Roboto:pixelsize=12:antialias=true
 font-1 = FontAwesome:pixelsize=16:antialias=true
 
-modules-left = volume
+modules-left = vpn volume
 modules-center = i3
 modules-right = wireless-network battery date
 
@@ -166,3 +166,9 @@ ramp-capacity-4 = 
 ramp-capacity-foreground = ${self.format-charging-underline}
 ramp-capacity-0-foreground = ${colors.foreground}
 ramp-capacity-0-background = ${colors.alert}
+
+[module/vpn]
+type = custom/script
+exec = echo " vpn  "
+exec-if = pgrep -x openvpn
+interval = 5
