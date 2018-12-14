@@ -15,4 +15,4 @@ alias ll="ls -l"
 alias lla="ll -a"
 alias intellij="idea"
 alias cclip="xclip -selection clipboard"
-
+alias grep='grep --color=auto'
