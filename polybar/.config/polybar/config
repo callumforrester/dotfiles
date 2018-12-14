@@ -40,6 +40,7 @@ format-mounted-foreground = ${self.format-mounted-underline}
 format-unmounted-foreground = ${self.format-unmounted-underline}
 
 [bar/bar1]
+monitor = ${env:MONITOR:}
 monitor-strict = false
 bottom = false
 

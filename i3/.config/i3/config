@@ -99,7 +99,7 @@ bindsym --release $mod+Print exec "maim -m 1 -u -i $(xdotool getwindowfocus -f) 
 exec --no-startup-id feh --bg-scale $HOME/.desktop/image/desktop-background
 
 # launch polybar
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id sleep 0.5; $HOME/.config/polybar/launch.sh
 
 # launch compton
 exec --no-startup-id compton -b

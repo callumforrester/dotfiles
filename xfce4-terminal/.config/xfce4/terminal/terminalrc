@@ -34,4 +34,6 @@ ColorBold=#fcfcafaf3e3e
 TabActivityColor=#fcfce9e94f4f
 ColorPalette=rgb(0,0,0);rgb(170,107,0);rgb(0,170,0);rgb(170,85,0);rgb(170,114,0);rgb(170,0,170);rgb(0,170,170);rgb(170,170,170);rgb(85,85,85);rgb(255,244,85);rgb(85,255,85);rgb(255,255,85);rgb(255,199,85);rgb(255,85,255);rgb(85,255,255);rgb(255,255,255)
 FontName=Liberation Mono 12
+MiscShowRelaunchDialog=TRUE
+MiscNewTabAdjacent=FALSE
 
