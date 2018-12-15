@@ -61,7 +61,7 @@ modules-center = i3
 modules-right = wireless-network battery date
 
 [module/volume]
-type = internal/volume
+type = internal/pulseaudio
 
 master-soundcard = hw:1
 
