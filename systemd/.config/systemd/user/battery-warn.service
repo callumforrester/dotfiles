@@ -1,0 +1,7 @@
+[Unit]
+Description=Warn on low battery
+
+[Service]
+Type=oneshot
+Environment=DISPLAY=:0
+ExecStart=/home/anthony/.config/scripts/battery-warn.sh
