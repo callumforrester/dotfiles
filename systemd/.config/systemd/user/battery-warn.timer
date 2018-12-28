@@ -2,7 +2,8 @@
 Description=Warn on low battery
 
 [Timer]
-OnCalendar=*-*-* *:0/5:00
+OnCalendar=*-*-* *:0/2:00
+AccuracySec=45
 
 [Install]
 WantedBy=timers.target

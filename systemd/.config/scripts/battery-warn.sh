@@ -20,10 +20,30 @@ function update_state
 	old_state=$(tail -n 1 "$0")
 	if [[ ${bat_status}  = "Discharging" && ${old_state} > $1 ]] || \
 	   [[ ${bat_status} != "Discharging" ]]; then
-		sed -i '$ d' "$0"
-		echo "$1" >> "$0"
+		# Replace last line of file, preserving sym-link if needed
+		# (sed in place does not seem to do this)
+		if [[ -L $0 ]]; then
+			# Put all but last link in tmp file
+			head -n -1 "$0" > /tmp/tmp-bat-warn
+			# Go to the directory of the symlinked script (if the
+			# link is relative)
+			cd $(dirname "$0")
+			# Go to the original files directory
+			cd $(dirname $(readlink "$0"))
+			# Copy the tmp file (minus last line) into the original file
+			cp /tmp/tmp-bat-warn $(basename $(readlink "$0"))
+			# Add new last line to the file
+			echo "$1" >> "$0"
+			# Remove tmp file
+			rm /tmp/tmp-bat-warn
+		else
+			# Remove last line of file in-place
+			sed -i '$ d' "$0"
+			# Add new last line to the file
+			echo "$1" >> "$0"
+		fi
 	fi
-	[[ ${STATUS} = "Discharging" && ${OLD} > $1 ]]
+	[[ ${bat_status} = "Discharging" && ${old_state} > $1 ]]
 }
 
 # Enable extended glob support
