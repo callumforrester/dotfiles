@@ -1,0 +1,15 @@
+autocomplete-python@1.11.0
+busy-signal@1.4.3
+intentions@1.1.5
+language-docker@1.1.8
+language-erlang@3.2.0
+language-haskell@1.18.0
+language-latex@1.2.0
+linter@2.2.0
+linter-flake8@2.3.0
+linter-ui-default@1.7.1
+minimap@4.29.9
+minimap-autohider@1.6.0
+python-autopep8@0.1.3
+script@3.18.1
+

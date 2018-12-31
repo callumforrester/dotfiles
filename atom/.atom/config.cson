@@ -1,0 +1,14 @@
+"*":
+  core:
+    telemetryConsent: "no"
+  editor: {}
+  "exception-reporting":
+    userId: "dd7f8d31-7432-4bed-a0a1-37677551de61"
+  minimap:
+    plugins:
+      "minimap-autohider": true
+      "minimap-autohiderDecorationsZIndex": 0
+  "minimap-autohider": {}
+  "python-autopep8":
+    autopep8Path: "/usr/bin/autopep8"
+    maxLineLength: 80
