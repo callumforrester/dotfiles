@@ -1,6 +1,10 @@
 "*":
   core:
     telemetryConsent: "no"
+    themes: [
+      "atom-arc-dark-ui"
+      "one-dark-syntax"
+    ]
   editor: {}
   "exception-reporting":
     userId: "dd7f8d31-7432-4bed-a0a1-37677551de61"
