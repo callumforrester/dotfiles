@@ -5,7 +5,8 @@
       "atom-arc-dark-ui"
       "one-dark-syntax"
     ]
-  editor: {}
+  editor:
+    tabLength: 4
   "exception-reporting":
     userId: "dd7f8d31-7432-4bed-a0a1-37677551de61"
   "linter-ui-default": {}
@@ -17,3 +18,5 @@
   "python-autopep8":
     autopep8Path: "/usr/bin/autopep8"
     maxLineLength: 80
+  welcome:
+    showOnStartup: false
