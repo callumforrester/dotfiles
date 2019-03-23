@@ -1,14 +1,26 @@
 "*":
   core:
+    disabledPackages: [
+      "linter"
+    ]
+    excludeVcsIgnoredPaths: false
     telemetryConsent: "no"
     themes: [
       "atom-arc-dark-ui"
       "one-dark-syntax"
     ]
   editor:
+    fontSize: 19
     tabLength: 4
   "exception-reporting":
     userId: "dd7f8d31-7432-4bed-a0a1-37677551de61"
+  "ide-java":
+    javaHome: "/usr/lib/jvm/default"
+  "ide-python":
+    pylsPlugins:
+      pydocstyle: {}
+  "ide-rust":
+    rlsToolchain: "stable"
   "linter-ui-default": {}
   minimap:
     plugins:
@@ -18,5 +30,11 @@
   "python-autopep8":
     autopep8Path: "/usr/bin/autopep8"
     maxLineLength: 80
+  "spell-check":
+    locales: [
+      "en-GB"
+    ]
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
