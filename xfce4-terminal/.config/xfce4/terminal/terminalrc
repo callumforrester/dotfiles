@@ -36,4 +36,5 @@ ColorPalette=rgb(0,0,0);rgb(170,107,0);rgb(0,170,0);rgb(170,85,0);rgb(170,114,0)
 FontName=Liberation Mono 12
 MiscShowRelaunchDialog=TRUE
 MiscNewTabAdjacent=FALSE
+Encoding=UTF-8
 
