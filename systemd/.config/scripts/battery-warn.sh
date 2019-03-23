@@ -81,5 +81,4 @@ esac
 
 exit 0
 
-### Stored state below here, please do not mofify
 3
