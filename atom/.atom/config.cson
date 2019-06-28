@@ -10,7 +10,7 @@
       "one-dark-syntax"
     ]
   editor:
-    fontSize: 19
+    fontSize: 17
     tabLength: 4
   "exception-reporting":
     userId: "dd7f8d31-7432-4bed-a0a1-37677551de61"
