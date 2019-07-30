@@ -94,7 +94,7 @@ label-disconnected-foreground = ${colors.alert}
 type = internal/date
 interval = 0.9
 
-date = ""
+date = 
 date-alt = " %Y-%m-%d"
 
 time = " %H:%M"
