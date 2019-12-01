@@ -1,3 +1,5 @@
 [user]
 	email = callum.forrester96@gmail.com
 	name = Callum Forrester
+[protocol "ext"]
+	allow = user
