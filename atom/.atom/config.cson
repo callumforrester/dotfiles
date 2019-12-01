@@ -21,7 +21,8 @@
       pydocstyle: {}
   "ide-rust":
     rlsToolchain: "stable"
-  "linter-ui-default": {}
+  "linter-ui-default":
+    showPanel: true
   minimap:
     plugins:
       "minimap-autohider": true
